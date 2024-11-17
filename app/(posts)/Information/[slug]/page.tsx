@@ -6,7 +6,7 @@ import { OpenGraph } from "@/lib/og";
 
 import { notFound } from "next/navigation";
 
-const route = "about me";
+const route = "information";
 
 const Posts = getPosts(route);
 
