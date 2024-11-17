@@ -28,6 +28,9 @@ export default function Home() {
       <FadeIn.Item>
         <Posts category="examples" />
       </FadeIn.Item>
+      <FadeIn.Item>
+        <Posts category="about me" />
+      </FadeIn.Item>
       <Spacer />
       <FadeIn.Item>
         <Footer />
