@@ -5,7 +5,7 @@ import { OpenGraph } from "@/lib/og";
 import React from "react";
 
 export function generateMetadata() {
-  const title = "About Me";
+  const title = "Information";
   const image = `${process.env.NEXT_PUBLIC_SITE_URL}api/og?title=${encodeURIComponent(title)}`;
 
   return {
